@@ -41,7 +41,7 @@ This repo intentionally focuses on the model and training system. It does not fu
 
 - NACC data access (requires a separate Data Use Agreement with https://naccdata.org)
 - figure generation (results are saved as CSV/pickle for downstream plotting)
-- hyperparameter search (fixed configuration in `src/config.py`)
+- hyperparameter search (configuration in `config.py`)
 - raw EHR data preprocessing beyond the NACC UDS format
 
 Those are separate stages and are best handled as dedicated scripts.
